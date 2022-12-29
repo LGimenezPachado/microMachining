@@ -21,7 +21,7 @@ flatSeq (float a, float b, float c, float d, float e, float f, float g,
 
   //third out
   float aux5 = c - e;
-  float aux6 = aux6 + g;
+  float aux6 = aux5 + g;
   cout << "third out: " << aux6 << endl;
 
   //fourth out
@@ -46,7 +46,7 @@ bucle (float a /*X0 */ , float b /*Y0 */ , float c, float d, float e,
   float aux3 = f + d;
   float aux4 = aux3 - b;
 
-  for (int iC = 0; iC < g; iC++)
+  for (int iC = 0; iC <= g; iC++)
     {
 
       float aux1 = h * iC;
