@@ -7,6 +7,7 @@ using namespace std;
 void
 flatSeq (float a, float b, float c, float d, float e, float f, float g,
 	 float h)
+	//Consists of one or more subdiagrams, or frames, that execute sequentially. Use the Flat Sequence structure to ensure that a subdiagram executes before or after another subdiagram.
 {
 
   //first out
