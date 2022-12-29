@@ -79,9 +79,6 @@ bucle (int X, int Y, int A, int B)
     endl;
 
 
-
-
-
   return 0;
 
 };
